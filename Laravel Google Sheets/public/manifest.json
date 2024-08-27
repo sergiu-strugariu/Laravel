@@ -1,0 +1,36 @@
+{
+    "name": "Fish Arena",
+    "short_name": "FishArena",
+    "start_url": "/index.php",
+    "background_color": "#6777ef",
+    "description": "Fish Arena",
+    "display": "fullscreen",
+    "theme_color": "#6777ef",
+    "icons": [
+        {
+            "src": "logo/FishArenaLogo72x72.png",
+            "sizes": "72x72",
+            "type": "image/png"
+          },
+          {
+            "src": "logo/FishArenaLogo128x128.png",
+            "sizes": "128x128",
+            "type": "image/png"
+          },
+          {
+            "src": "logo/FishArenaLogo144x144.png",
+            "sizes": "144x144",
+            "type": "image/png"
+          },
+          {
+            "src": "logo/FishArenaLogo192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+          },
+          {
+            "src": "logo/FishArenaLogo512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+          }
+    ]
+}
