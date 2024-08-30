@@ -1,0 +1,74 @@
+#add-modal .panel-heading, #edit-modal .panel-heading {
+  text-align: left; }
+  #add-modal .panel-heading h1, #edit-modal .panel-heading h1 {
+    font-family: 'Roboto-Medium', sans-serif;
+    font-size: 20px;
+    color: #4A4A4A;
+    font-weight: bold; }
+#add-modal #add-submit-button, #add-modal #edit-submit-button, #edit-modal #add-submit-button, #edit-modal #edit-submit-button {
+  background: #FF0000;
+  border-radius: 5px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
+  font-size: 15px;
+  color: #FFFFFF;
+  padding: 9px 21px;
+  margin-top: 10px; }
+  #add-modal #add-submit-button:hover, #add-modal #edit-submit-button:hover, #edit-modal #add-submit-button:hover, #edit-modal #edit-submit-button:hover {
+    background: #ea1e1e;
+    border-color: #ea1e1e; }
+#add-modal .add-new-language, #edit-modal .add-new-language {
+  margin-bottom: 3px;
+  margin-top: 2px; }
+  #add-modal .add-new-language a, #edit-modal .add-new-language a {
+    background-color: #ffffff !important;
+    border: 1px solid transparent; }
+    #add-modal .add-new-language a:hover, #edit-modal .add-new-language a:hover {
+      cursor: pointer;
+      opacity: 0.85; }
+  #add-modal .add-new-language span, #edit-modal .add-new-language span {
+    margin-right: 7px;
+    color: #27AE60;
+    font-size: 14px; }
+    #add-modal .add-new-language span:hover, #edit-modal .add-new-language span:hover {
+      opacity: 0.75; }
+#add-modal button.close, #edit-modal button.close {
+  margin-top: 15px;
+  font-size: 29px;
+  color: #FF5555;
+  opacity: 0.7;
+  z-index: 999;
+  position: relative;
+  outline: 0; }
+  #add-modal button.close:hover, #edit-modal button.close:hover {
+    opacity: 1; }
+#add-modal .nav.nav-tabs, #edit-modal .nav.nav-tabs {
+  margin-left: -17px;
+  display: flex;
+  flex-wrap: wrap; }
+  #add-modal .nav.nav-tabs button.close, #edit-modal .nav.nav-tabs button.close {
+    margin-top: 1px;
+    margin-right: -5px;
+    margin-left: 5px;
+    font-size: 22px; }
+  #add-modal .nav.nav-tabs a, #edit-modal .nav.nav-tabs a {
+    font-family: 'Roboto-Regular', sans-serif;
+    font-size: 14px;
+    color: #9B9B9B;
+    padding-left: 11px; }
+  #add-modal .nav.nav-tabs li:not(.active) a, #edit-modal .nav.nav-tabs li:not(.active) a {
+    background: #EBEBEB;
+    border-radius: 5px;
+    padding: 7.5px 11px 5px; }
+  #add-modal .nav.nav-tabs li.active a, #edit-modal .nav.nav-tabs li.active a {
+    border-radius: 5px 5px 0 0; }
+  #add-modal .nav.nav-tabs li:first-child a, #edit-modal .nav.nav-tabs li:first-child a {
+    margin-left: 23px; }
+#add-modal .nav-tabs > li > a, #edit-modal .nav-tabs > li > a {
+  margin-right: 7px;
+  margin-bottom: -1px;
+  padding: 7.5px 11px 12px; }
+#add-modal .tab-content > .tab-pane, #edit-modal .tab-content > .tab-pane {
+  margin-top: 26px; }
+
+/*# sourceMappingURL=sidebar.css.map */

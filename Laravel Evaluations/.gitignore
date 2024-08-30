@@ -1,0 +1,33 @@
+### Laravel ###
+/node_modules
+/public/audio/*
+/public/css/styles.min.css
+/public/css/styles-pdf.min.css
+/public/js/scripts.min.js
+/public/js/scripts-task-page.min.js
+/public/assets/attachments
+/storage/*.key
+/storage
+/vendor
+/.sass-cache
+/resources/assets/merged.js
+/resources/assets/merged-task-project.js
+/resources/assets/css/scss.css
+.env
+.phpstorm.meta.php
+_ide_helper.php
+composer.lock
+### Vagrant ###
+/.vagrant/
+
+### PHP IDE ###
+.idea
+
+### Mac OS ###
+.DS_Store
+public/assets/uploads/
+/nbproject/private/
+public/assets/css/app.css
+
+### Custom ###
+/commands.txt

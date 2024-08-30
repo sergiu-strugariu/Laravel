@@ -1,0 +1,19 @@
+.distinct-billing-container {
+  padding-top: 20px;
+  text-align: right;
+}
+
+.custom-price-button-container {
+  padding: 20px 0 0 0;
+  text-align: center;
+}
+
+#project-prices-modal {
+  z-index: 2055;
+  .modal-dialog {
+    width: 90vw;
+    .project-price-input:disabled {
+      opacity: 0.5 !important;
+    }
+  }
+}

@@ -1,0 +1,21 @@
+@media (max-width: 767px) {
+
+  .content{
+    margin-top:95px;
+  }
+
+  .main-header .logo .logo-mini{
+    display: block;
+  }
+
+  .main-header .logo .logo-lg{
+    display: none;
+  }
+  .main-header .logo>.logo-mini{
+    margin: 10px auto 0;
+  }
+  .skin-black .main-header>.logo{
+    padding:0 !important;
+  }
+
+}

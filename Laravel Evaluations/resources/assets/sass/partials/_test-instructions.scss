@@ -1,0 +1,38 @@
+.instructions-per-type {
+  .test-body>.panel-content {
+    margin: 0 !important;
+  }
+  .text-area-answer {
+    border-top: none;
+  }
+  .text-area-answer {
+    padding: 40px 0 10px !important;
+    .instructions {
+      font-family: Roboto, sans-serif;
+      font-size: 20px;
+      color: #4A4A4A;
+      line-height: 27px;
+      h1 {
+        font-weight: 700;
+      }
+      > * {
+        padding: 0 40px;
+      }
+      u, ol {
+        font-size: 16px;
+        line-height: 33px;
+        color: #4A4A4A;
+        font-family: Roboto, sans-serif;
+      }
+      ol li {
+        margin-left: 40px;
+      }
+      u {
+        display: block;
+        border-top: 1px solid #E0E0E0;
+        padding-top: 40px;
+        margin-top: 40px;
+      }
+    }
+  }
+}

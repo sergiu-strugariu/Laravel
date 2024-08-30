@@ -1,0 +1,15 @@
+<?php
+
+return array (
+  'C2' => 'Can write clear, highly accurate and smoothly flowing complex texts in an appropriate and effective personal style, conveying finer shades of meaning. Can use a logical structure which helps the reader to find significant points.',
+  'C1' => 'Can write clear, well-structured and mostly accurate texts of complex subjects. Can underline the relevant salient issues, expand and support points of view with subsidiary points, reasons and relevant examples, and round off with an appropriate conclusion.',
+  'B2+' => 'Reports news and viewpoints effectively and relates them to those of the reader. Can write clear, detailed texts on a variety of subjects related to areas of interest, synthesizing arguments from multiple sources. Produces clear, intelligible text, which follows standard layout and paragraphing conventions. Texts are reasonably accurate, and correctable in edits.',  
+  'B2' => 'Can write clear, detailed texts on a variety of subjects related to his field of interest, synthesising and evaluating information and arguments from a number of sources. Can make a distinction between formal and informal language with occasional less appropriate expressions.',
+  'B1+' => 'Writes continuous writing, generally intelligible throughout. Text spelling is accurate enough to be followed. Writes straightforward, connected texts, by linking a series of shorter elements. But may lack full coherence.',  
+  'B1' => 'Can write straightforward connected texts on a range of familiar subjects within his field of interest, by linking a series of shorter discrete elements into a linear sequence. The texts are understandable but occasional unclear expressions and/or inconsistencies may cause a break-up in reading.',
+  'A2+' => 'Communicates in short messages. Can respond with a series of simple phrases and sentences linked with the connectors ‘and,’ ‘but,’ ‘because’ and ‘then.’ Can copy short sentences on everyday subjects and write with reasonable phonetic accuracy. Longer texts might feel repetitive and contain errors, but will vary in effectiveness, depending on topic and purpose of text.',
+  'A2' => 'Can write a series of simple phrases and sentences linked with simple connectors like “and”, “but” and “because”. Longer texts may contain expressions and show coherence problems which makes the text hard to understand.',
+  'A1+' => 'Communicates using short texts, about personal details. Can link words or groups of words with very basic linear connectors like ‘and’ or ‘but.’ Writes simple isolated phrases and sentences. Can copy familiar words and short phrases e.g. simple signs or instructions, names of everyday objects, names of shops and set phrases used regularly. Can spell his/her address, nationality and other personal details.',
+  'A1' => 'Can write simple isolated phrases and sentences. Longer texts contain expressions and show coherence problems which make the text very hard or impossible to understand.',
+  'Pre-A1' => 'Can give basic personal information in writing (e.g. name, address, nationality), perhaps with the use of a dictionary.',
+);

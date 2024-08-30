@@ -1,0 +1,51 @@
+$default-price-color: #FFA500;
+$client-price-color: #42641f;
+$project-price-color: #0000ce;
+
+.prices-page {
+  .prices-box {
+    .table {
+      .price-input {
+        width: 100%;
+        display: block;
+      }
+      .price-input:disabled {
+        opacity: 0.5 !important;
+      }
+      .leading-column {
+        vertical-align: middle;
+      }
+    }
+  }
+}
+
+#project-prices-modal {
+  ul {
+    .orange {
+      span {
+        color: $default-price-color;
+      }
+    }
+    .green {
+      span {
+        color: $client-price-color;
+      }
+    }
+    .blue {
+      span {
+        color: $project-price-color;
+      }
+    }
+  }
+
+  input.border-default {
+    border: solid 2px $default-price-color !important;
+  }
+
+  input.border-client {
+    border: solid 2px $client-price-color !important;
+  }
+  input.border-project {
+    border: solid 2px $project-price-color !important;
+  }
+}

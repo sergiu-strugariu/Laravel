@@ -1,0 +1,16 @@
+#add_new_question_form, #edit_question_form {
+  .incorrect-pattern {
+    background: #FFF !important;
+    border: 1px solid #CCC !important;
+    border-radius: 5px !important;
+    padding: 5px;
+    li {
+      display: inline-block;
+      border: 1px solid rgba(37, 122, 183, 0.9);
+      border-radius: 3px;
+      margin-right: 5px;
+      padding: 3px 5px;
+      cursor: move;
+    }
+  }
+}

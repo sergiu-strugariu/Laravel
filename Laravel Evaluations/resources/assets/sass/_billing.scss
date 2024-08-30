@@ -1,0 +1,70 @@
+.paper-type-label {
+  width: 35%;
+  &+.paper-cost {
+    color: $text-color;
+    font-size: 12px;
+  }
+}
+
+.custom-period-container {
+  background: #f8f8f8;
+  padding: 10px 16px;
+  margin: 0 -16px;
+}
+
+.custom-period-toggle {
+  &.btn-blue {
+    font-weight: normal;
+    background: $body-bg;
+    &:hover {
+      color: $colorS;
+    }
+    span {
+      font-size: $font_12+px;
+      font-weight: bold;
+      color: $colorLU;
+      margin-right: 10px;
+      &.cost {
+        color: $text-color;
+      }
+    }
+  }
+}
+
+.billing-page {
+  .select-daterange.disabled {
+    opacity: 0.5;
+    pointer-events: none;
+  }
+
+  .generate-invoice {
+    &.active {
+      background: $colorLU !important;
+    }
+  }
+
+  .client-table-container {
+    position: relative;
+    .client-name {
+      width: 100%;
+      span {
+        font-weight: normal;
+        padding-right: 15px;
+        margin-left: 6px;
+        font-size: 16px;
+        line-height: 45px;
+        float: right;
+        display: inline-block;
+      }
+    }
+
+    table {
+      .action {
+        padding: 5px 5px 5px 0;
+        &.view-client-details {
+          color: $colorW;
+        }
+      }
+    }
+  }
+}

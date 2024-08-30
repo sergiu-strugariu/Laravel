@@ -1,0 +1,58 @@
+// Body
+$body-bg: #f5f8fa;
+
+// Borders
+$laravel-border-color: darken($body-bg, 10%);
+$list-group-border: $laravel-border-color;
+$navbar-default-border: $laravel-border-color;
+$panel-default-border: $laravel-border-color;
+$panel-inner-border: $laravel-border-color;
+
+// Brands
+$brand-primary: #3097D1;
+$brand-info: #8eb4cb;
+$brand-success: #2ab27b;
+$brand-warning: #cbb956;
+$brand-danger: #bf5329;
+
+// Typography
+$icon-font-path: "~bootstrap-sass/assets/fonts/bootstrap/";
+$font-family-sans-serif: "Raleway", sans-serif;
+$font-size-base: 14px;
+$line-height-base: 1.6;
+$text-color: #636b6f;
+
+// Navbar
+$navbar-default-bg: #fff;
+
+// Buttons
+$btn-default-color: $text-color;
+
+// Inputs
+$input-border: lighten($text-color, 40%);
+$input-border-focus: lighten($brand-primary, 25%);
+$input-color-placeholder: lighten($text-color, 30%);
+
+// Panels
+$panel-default-heading-bg: #fff;
+
+// Font sizes
+$increment : 2;
+
+$font_12: 12 + $increment;
+$font_13: 13 + $increment;
+$font_14: 14 + $increment;
+$font_15: 15 + $increment;
+$font_16: 16 + $increment;
+$font_18: 18 + $increment;
+$font_19: 19 + $increment;
+$font_20: 20 + $increment;
+$font_24: 24 + $increment;
+$font_22: 22 + $increment;
+$font_29: 29 + $increment;
+
+$colorLU: #07a8e4;
+$colorW: #00b497;
+$colorS: #f01f1f;
+$colorL: #ff8300;
+$colorR: #782aa9;
